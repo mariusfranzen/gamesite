@@ -24,6 +24,7 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
+    "axios": "^0.19.2",
     "babel-loader": "^8.1.0",
     "babel-polyfill": "^6.26.0",
     "css-loader": "^3.5.3",
@@ -31,15 +32,15 @@
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^1.2.2",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
-    "webpack-dev-server": "^3.11.0",
-    "axios": "^0.19.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0"
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "cookies-js": "^1.2.3",

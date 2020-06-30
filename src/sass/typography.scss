@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+$orbitron: "Orbitron",
+sans-serif;
+$open-sans-condensed: "Open Sans Condensed",
+sans-serif;
+
+html {
+    font-size: 87.5%;
+}
+
+body {
+    background-color: $white;
+    font-family: $open-sans-condensed;
+    line-height: 1.65em;
+    border: 0px;
+    margin: 0px;
+}
+
+p {
+    margin-bottom: 1.15rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 10px;
+    font-family: $orbitron;
+    line-height: 1.15;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.802em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.502em;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 1.424em;
+}
+
+h4 {
+    font-size: 1.266em;
+}
+
+h5 {
+    font-size: 1.125em;
+}
+
+.gold-text {
+    color: $gold;
+}
+
+.white-text {
+    color: $white;
+}

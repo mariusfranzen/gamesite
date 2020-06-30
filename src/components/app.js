@@ -19,16 +19,8 @@ export default class componentName extends Component {
             <React.Fragment>
                 <Router history={history}>
                     <Navigation />
-                    <Switch>
-                        <Route
-                            exact
-                            path="/"
-                            render={(props) => (
-                                <HomePage {...props} />
-                            )}
-                        />
-                    </Switch>
                 </Router>
+                <HomePage />
             </React.Fragment>
         );
     }
