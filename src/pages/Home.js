@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Carousel from "../components/carousel/Carousel";
+import BannerCarousel from "../components/bannerCarousel/Carousel";
 
 class homePage extends Component {
     constructor(props){
@@ -13,8 +14,9 @@ class homePage extends Component {
     render(){
         return(
             <React.Fragment>
+                <div className="wrapper">
                 <section id="home">
-                    <Carousel />
+                    <BannerCarousel />
                 </section>
                 <section id="modeling">
 
@@ -25,6 +27,7 @@ class homePage extends Component {
                 <section id="support-us">
                     
                 </section>
+                </div>
             </React.Fragment>
         );
     }
